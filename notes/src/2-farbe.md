@@ -39,3 +39,31 @@ sind aus den beiden Punktfarben mischen.
 Die Farben auf der Purpurlinie (gerade unten am Diagram)
 kann ich nicht aus zwei anderen Farben mischen.
 Diese gaben auch Probleme im *RGB* spektrum.
+
+Wir nehmen nicht alle Farbänderungen gleich wahr:
+
+![farbaenderung](../images/farbaenderung.png)
+
+Dies kann beispielsweise ein Problem sein, falls
+ein Arzt visuell Diagnosen stellen soll.
+
+RGB to CMY
+
+\\[
+  \begin{bmatrix}
+  C &
+  M &
+  Y
+  \end{bmatrix}
+\\]
+
+CMYK für Drucker (schwarz sepparat), beispiel CMY: (0.5, )
+
+\\[ K = min(C, M, Z) \\]
+
+\\[ C' = C - K \\]
+
+## HSV (Hue Satturation, Value)
+
+![hsv](../images/hsv.png)
+
