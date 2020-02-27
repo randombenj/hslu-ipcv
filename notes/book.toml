@@ -1,0 +1,9 @@
+[book]
+authors = ["Benj Fassbind"]
+language = "de"
+multilingual = false
+src = "src"
+title = "Image Processing and Computer Vision"
+
+[output.html]
+mathjax-support = true
